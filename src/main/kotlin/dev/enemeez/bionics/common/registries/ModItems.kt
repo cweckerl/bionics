@@ -49,7 +49,6 @@ object ModItems {
     val capacitor = registerItem("capacitor")
     val resistor = registerItem("resistor")
 
-    // Titanium
     val titaniumOre = registerBlockItem("titanium_ore") { ModBlocks.titaniumOre.get() }
     val deepslateTitaniumOre = registerBlockItem("deepslate_titanium_ore") { ModBlocks.deepslateTitaniumOre.get() }
     val titaniumIngot = registerItem("titanium_ingot")
